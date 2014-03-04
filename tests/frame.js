@@ -11,7 +11,7 @@ describe ('when streaming an mpeg file to the tag parser', function(){
         parser = new Parser();
     })
 
-    it.only('should correctly parse tags', function(done){
+    it('should correctly parse tags', function(done){
         var tags = {}
         readStream(__dirname + '/ID3Tags.mp3')
             .pipe(parser)

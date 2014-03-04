@@ -1,5 +1,4 @@
-﻿var ReadStream = require('fs').ReadStream
-  , _ = require('lodash')
+﻿var _ = require('lodash')
   , binary = require('./lib/binaryHelpers')
 
 var NOT_A_FRAME = 'Not an ID3 Tag frame'

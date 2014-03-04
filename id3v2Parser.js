@@ -2,14 +2,13 @@
   , Tokenizr = require('stream-tokenizr')
   , binary = require('./lib/binaryHelpers')
   , _ = require('lodash')
-  , TAG_EVENT = 'metadata'
   , Id3Frame = require('./id3v2Frame.js');
 
 var location = {
     HEADER: 1,
     XHEADER: 2,
     FRAME_HEADER: 3,
-    FRAME_DATA: 4,
+    FRAME_DATA: 4
 };
 
 module.exports = Id3v2Parser;

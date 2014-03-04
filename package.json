@@ -1,0 +1,28 @@
+{
+  "name": "id3v2-parser",
+  "version": "0.0.0",
+  "description": "ID3v2 audio tag streaming parser",
+  "main": "id3v2Parser.js",
+  "scripts": {
+    "test": "mocha ./tests/*.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theporchrat/id3v2-info-parser.git"
+  },
+  "author": "Jason Quense @theporchrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/id3v2-info-parser/issues"
+  },
+  "homepage": "https://github.com/theporchrat/id3v2-info-parser",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "readable-stream": "~1.0.26-2",
+    "stream-tokenizr": "~0.3.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  }
+}

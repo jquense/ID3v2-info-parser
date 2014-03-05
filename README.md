@@ -22,4 +22,4 @@ The parser is simply a stream in objectMode, so you can pipe and binary data int
     })
 
 
- use in conjunction with my ID3v1 parser and mpeg frame parser for more data.
+ use in conjunction with my ID3v1 parser and [mpeg frame parser](https://github.com/theporchrat/mpeg-frame-parser/) for more data.

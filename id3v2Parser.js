@@ -1,7 +1,6 @@
 ﻿var inherits = require('util').inherits
   , Tokenizr = require('stream-tokenizr')
   , binary = require('./lib/binaryHelpers')
-  , _ = require('lodash')
   , Id3Frame = require('./id3v2Frame.js');
 
 var location = {

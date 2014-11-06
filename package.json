@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/jquense/id3v2-info-parser",
   "dependencies": {
+    "buffer-equal": "~0.0.1",
     "lodash": "~2.4.1",
     "stream-tokenizr": "~0.3.0"
   },
